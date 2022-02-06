@@ -21,5 +21,8 @@
 		"prettier-plugin-svelte": "^2.6.0",
 		"svelte": "^3.46.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/svelte-scroller": "^2.0.7"
+	}
 }
