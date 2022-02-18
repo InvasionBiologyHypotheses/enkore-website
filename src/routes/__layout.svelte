@@ -22,6 +22,7 @@
 
 <nav>
 	<ul>
+		<li>enKORE</li>
 		{#each navItems as item}
 			<li>
 				<a href={item}>{item}</a>
@@ -39,6 +40,10 @@
 		position: fixed;
 		top: 0;
 		/* height: 2em; */
+	}
+	nav > ul {
+		list-style-type: none;
+		display: flexbox;
 	}
 	main {
 		padding-top: 2em;

@@ -1,5 +1,10 @@
-# Welcome to SvelteKit
+# enKORE
 
-Visit [kit.svelte.dev](https://kit.svelte.dev) to read the documentation
+### Building an interactive atlas of knowledge for Science investigation.
 
-__Now in MDSvex!__
+
+> "Drowning in information ... starved of knowledge" John Naisbitt, 1982
+
+
+
+With the exponential increase in scientific publications, it has become difficult to acquire and maintain an overview of expanding fields like invasion biology, urban ecology or restoration ecology. Using the power of machine learning and natural language processing for harvesting and organising scientific knowledge, and building on conceptual frameworks, we are developing an open interactive atlas of knowledge, first with a focus on invasion biology, but soon also for urban and restoration ecology. Our goal is to foster open knowledge by making the scientific literature machine-readable to help humans navigate it.
