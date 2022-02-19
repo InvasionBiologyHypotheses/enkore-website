@@ -1,12 +1,12 @@
 <script context="module">
 	export async function load() {
-		const navItems = import.meta.glob('./*.{svelte,svx}');
-		for (const path in navItems) {
-			navItems[path]().then((mod) => {
-				console.log(path, mod);
-			});
-		}
-
+		const muck = import.meta.glob('./*.{svelte,svx}');
+		const navItems = [];
+		console.log(muck);
+		Object.keys(muck).map((item) => {
+			console.log({ item });
+			navItems.push(item.substring(1, item.lastIndexOf('.')));
+		});
 		console.log({ navItems });
 		return {
 			props: {
@@ -37,13 +37,20 @@
 
 <style>
 	nav {
+		width: 100%;
 		position: fixed;
 		top: 0;
 		/* height: 2em; */
+		z-index: 999999999;
+		background-color: white;
+		border-bottom: 1px grey solid;
 	}
 	nav > ul {
 		list-style-type: none;
 		display: flexbox;
+	}
+	nav > ul > li {
+		display: inline-block;
 	}
 	main {
 		padding-top: 2em;
