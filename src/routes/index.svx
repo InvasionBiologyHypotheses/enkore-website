@@ -5,6 +5,23 @@
 
 > "Drowning in information ... starved of knowledge" John Naisbitt, 1982
 
-
-
 With the exponential increase in scientific publications, it has become difficult to acquire and maintain an overview of expanding fields like invasion biology, urban ecology or restoration ecology. Using the power of machine learning and natural language processing for harvesting and organising scientific knowledge, and building on conceptual frameworks, we are developing an open interactive atlas of knowledge, first with a focus on invasion biology, but soon also for urban and restoration ecology. Our goal is to foster open knowledge by making the scientific literature machine-readable to help humans navigate it.
+
+
+If you are interested in joining our [workshops](workshops), please <a href="mailto:">contact us</a>.
+
+## People
+
+- Jonathan Jeschke
+- Tina Heger
+- ...
+
+## Publications
+
+Jeschke JM, Heger T, Kraker P, Schramm M, Kittel C, Mietchen D (2021) Towards an open, zoomable atlas for invasion science and beyond. NeoBiota 68: 5-18. https://doi.org/10.3897/neobiota.68.66685
+
+## Partner Organisations
+
+[![IGB - Leibniz Institute of Freshwater Ecology and Inland Fisheries](https://www.igb-berlin.de/themes/custom/igbtheme/images/logo_en.svg)](https://www.igb-berlin.de/en)
+
+[![Open Knowledge Maps](https://raw.githubusercontent.com/OpenKnowledgeMaps/CoVis/master/img/Logo-Open-Knowledge-Maps-BGwhite.svg)](https://openknowledgemaps.org/)
