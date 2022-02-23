@@ -1,38 +1,54 @@
-# create-svelte
+# enKORE website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+This is the source for the [enKORE website](https://enkore.hi-knowledge.org/).
 
-## Creating a project
+It is built with the [SvelteKit](https://kit.svelte.dev/) app development framework, with [MDSvex](https://mdsvex.com/) which allows Svelte component infused Markdown 😍
 
-If you're seeing this, you've probably already done this step. Congrats!
+It is currently a static site hosted on [Netlify](https://netlify.com/) which automatically rebuilds and deploys the site when a new commit is added/pushed to this repo.
+## Content Editing
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+All `.svelte` &amp; `.svx` files and folders in the `src/routes/` folder render out as pages directly. The root content is in `src/routes/index.svx`.
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+You can edit directly on GitHub either by typing `.` on your keyboard when browsing this repo to start an in browser version of VSCode, or by navigating to the relevant file and clicking the pencil icon at the top right of the content.
 
-> Note: the `@next` is temporary
+When you have finished editing you have to commit the changes, which will save the new version and generate a new build and deployment.
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+If you want to do more in-depth editing or prefer to work locally you can clone this repo and run it locally using [pnpm](https://pnpm.io/).
+
+You'll need [NodeJS](https://nodejs.org/) and npm installed. If you don't already have pnpm installed you can either install it globally on your machine by running
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+npm i -g pnpm
 ```
 
-## Building
+or simply appending `npx` to the beginning of the following commands.
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+Once cloned to your local machine, install all the dependencies with
 
 ```bash
-npm run build
+pnpm i
 ```
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+from within the repo's root directory (or `npx pnpm i` if you don't want to install pnpm... but you should 😉).
+
+To start the development server run:
+
+```bash
+pnpm dev
+```
+
+You can then access the local development server at http://localhost:3000/
+
+If you have something else running on port 3000 locally you can change the port by starting the server with (for instance, port 8989):
+
+```bash
+pnpm dev -- --port=8989
+```
+
+Edit the files as necessary &amp; when you are ready don't forget to push!
+
+## Issues
+
+If you have any issues please create a new issue in the github repo's issue tracker.
