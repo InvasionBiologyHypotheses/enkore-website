@@ -1,28 +1,5 @@
-<script context="module">
-	export async function load() {
-		const navItems = import.meta.glob('./*.{svelte,svx}');
-		for (const path in navItems) {
-			navItems[path]().then((mod) => {
-				console.log(path, mod);
-			});
-		}
-
-		console.log({ navItems });
-		return {
-			props: {
-				navItems
-			}
-		};
-	}
-
-	/*
-	pages:
-	- index / intro
-	- workshop
-	*/
-</script>
-
 <script>
+	import '../app.css';
 	export let navItems = [];
 </script>
 
@@ -30,31 +7,29 @@
 	<title>enKORE</title>
 </svelte:head>
 
-<nav>
-	<ul>
-		<li>enKORE</li>
-		{#each navItems as item}
-			<li>
-				<a href={item}>{item}</a>
-			</li>
-		{/each}
-	</ul>
-</nav>
+<header>
+	<li>enKORE</li>
+
+	<nav>
+		<ul>
+			{#each navItems as item}
+				<li>
+					<a href={item}>{item}</a>
+				</li>
+			{/each}
+		</ul>
+	</nav>
+</header>
 
 <main>
 	<slot />
 </main>
 
+<footer />
+
 <style>
-	@import 'open-props/style';
-	@import 'open-props/normalize';
-	@import 'open-props/gradients';
-	:global(body) {
-		margin: 0;
-		padding: 0;
-	}
 	nav {
-		position: fixed;
+		position: sticky;
 		top: 0;
 		/* height: 2em; */
 		background-color: white;
@@ -66,7 +41,11 @@
 		display: flexbox;
 	}
 	main {
-		margin: 2em;
-		padding-top: 2em;
+		width: fit-content;
+		margin-inline: auto;
+		padding: 2ch;
+	}
+	:global(p, h1, h2, h3, h4, h5, h6, blockquote) {
+		margin-block: 2ch;
 	}
 </style>

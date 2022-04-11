@@ -1,9 +1,3 @@
-<script>
-  import Logo from "$lib/assets/icons/logo.svelte";
-</script>
-
-<Logo />
-
 ### Building an interactive atlas of knowledge for invasion science and beyond
 
 > "Drowning in information ... starved of knowledge" _John Naisbitt, 1982_
