@@ -5,9 +5,6 @@
 
 Our first online workshop will bring together a diverse community of invasion biologists, urban and restoration ecologists, as well as interested scientists from other fields to reflect on, try out and develop these new tools. We are at the beginning of the project, so there is still a lot of space for creativity!
 
-
-[![workshop graphical abstract](static/Workshop Graphical abstract.pdf)]
-
 What participants will gain from the workshop:
 * Get introduced to novel tools for navigating scientific literature and knowledge
 * Join the team and shape the conceptual development of these tools
