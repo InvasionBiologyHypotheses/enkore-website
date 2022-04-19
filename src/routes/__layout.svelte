@@ -1,6 +1,6 @@
 <script>
 	import '../app.css';
-	export let navItems = [];
+	import Logo from '$lib/components/Logo.svelte';
 </script>
 
 <svelte:head>
@@ -8,15 +8,14 @@
 </svelte:head>
 
 <header>
-	<li>enKORE</li>
+	<Logo />
 
 	<nav>
 		<ul>
-			{#each navItems as item}
-				<li>
-					<a href={item}>{item}</a>
-				</li>
-			{/each}
+			<a href="/">Home</a>
+		</ul>
+		<ul>
+			<a href="/workshops">Workshops</a>
 		</ul>
 	</nav>
 </header>
@@ -28,24 +27,24 @@
 <footer />
 
 <style>
-	nav {
+	header {
 		position: sticky;
 		top: 0;
-		/* height: 2em; */
-		background-color: white;
+		background-color: var(--surface-1);
 		width: 100%;
-		border-bottom: 1px solid grey;
+		padding-block: var(--size-3);
+		margin-block-end: var(--size-3);
+		box-shadow: var(--shadow-3);
+		display: flex;
 	}
 	nav > ul {
 		list-style-type: none;
-		display: flexbox;
 	}
 	main {
-		width: fit-content;
+		display: grid;
+		gap: var(--size-3);
+		width: min(100% - 2rem, var(--content-size-3));
 		margin-inline: auto;
 		padding: 2ch;
-	}
-	:global(p, h1, h2, h3, h4, h5, h6, blockquote) {
-		margin-block: 2ch;
 	}
 </style>

@@ -2,9 +2,9 @@
 
 > "Drowning in information ... starved of knowledge" _John Naisbitt, 1982_
 
-With the exponential increase in scientific publications, it has become difficult to acquire and maintain an overview of expanding fields like invasion biology, urban ecology or restoration ecology. Using the power of machine learning and natural language processing for harvesting and organising scientific knowledge, and building on conceptual frameworks, we are developing an open interactive atlas of knowledge, first with a focus on invasion biology, but soon also for urban and restoration ecology. Our goal is to foster open knowledge by making the scientific literature machine-readable to help humans navigate it.
+With the exponential increase in scientific publications, it has become difficult to acquire and maintain an overview of expanding fields like invasion biology, urban ecology or restoration ecology. The [enKORE project](https://doi.org/10.3897/neobiota.68.66685) uses the power of machine learning and natural language processing to develop an open interactive atlas of knowledge, first with a focus on invasion biology, but soon also for urban and restoration ecology. Our goal is to foster open knowledge by making the scientific literature machine-readable to help humans navigate it.
 
-If you are interested in joining our community, please <a href="mailto:enkore@hi-knowledge.org">contact us</a>.
+If you are interested in joining our community, please [contact us](mailto:enkore@hi-knowledge.org).
 
 ## People
 
