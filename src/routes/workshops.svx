@@ -1,6 +1,7 @@
 # Workshops
 
 ## First enKORE Workshop:
+
 **Towards an open interactive atlas for Invasion Biology and beyond!**
 
 Our first online workshop will bring together a diverse community of invasion biologists, urban and restoration ecologists, as well as interested scientists from other fields to reflect on, try out and develop these new tools. We are at the beginning of the project, so there is still a lot of space for creativity!
@@ -10,7 +11,8 @@ What participants will gain from the workshop:
 * Join the team and shape the conceptual development of these tools
 * Get involved in a global open science community interested in biological invasions and related topics in the Anthropocene
 
-The workshop will be over two days: May 2 (2:00 p.m. - 4:30 p.m. Berlin time) and May 3 (2:00 p.m. - 5:00 p.m.)
+The workshop will be over two days: May 2 (2:00 p.m. - 4:30 p.m. Berlin time) and May 3 (2:00 p.m. - 5:00 p.m.).
+
 The first day will be introduce the project and the tools.
 On the second day, break-out group activities will allow participants to:
 * Define their needs and wishes as users and members of the community
@@ -22,23 +24,35 @@ On the second day, break-out group activities will allow participants to:
 ###  Workshop Program:
 #### First day, May 2nd (times are CET):
 14h - 14h20: Welcome, brief introduction to the topic, history and current status of the Hi Knowledge initiative
+
 14h20 - 14h40: Introduction to enKORE and INAS projects
+
 14h40 - 15h: Time for questions and refreshments
+
 15h - 15h20: Introduction to OK Maps and its role in enKORE
+
 15h20 - 15h40: Introduction to Scholia and Wiki sites related to invasion biology
+
 15h40 - 16h: Introduction to ORKG and its connection to enKORE
+
 16h: Goodbye to those who don’t participate in day 2
+
 16h - 16h30: Overview and selection of break-out group topics for day 2
 
 #### Second day, May 3rd (times are CET):
 14h: Short kick-off
+
 14h10 - 15h: Break-out groups round 1
+
 15h10 - 16h: Break-out groups round 2
+
 16h15 - 17h: Quick summaries of break-out groups and next steps
 
 ### Break-out group topics
 We will offer to lead a number of break-out group discussions about the different tools to be developed and new themes to be added to the project.
+
 Discussions will last 50 mins, organised in two rounds. At the end of the first workshop day, you will be able to choose which group you wish to join in each of the two rounds.
+
 In parallel to the break-out groups, there will be an OK Maps group discussion for which attendees have already been determined.
 
 You may also propose your own idea for a break-out group discussion, either by contacting us now, or spontaneously at the end of the first day.
