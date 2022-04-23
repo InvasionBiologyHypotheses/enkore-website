@@ -1,8 +1,14 @@
+<script>
+  import VisualAbstract from "$lib/components/VisualAbstract.svelte";
+</script>
+
 # Workshops
 
 ## First enKORE Workshop:
 
 **Towards an open interactive atlas for Invasion Biology and beyond!**
+
+<VisualAbstract style="max-inline-width:var(--size-content-3)" />
 
 Our first online workshop will bring together a diverse community of invasion biologists, urban and restoration ecologists, as well as interested scientists from other fields to reflect on, try out and develop these new tools. We are at the beginning of the project, so there is still a lot of space for creativity!
 
