@@ -1,9 +1,10 @@
 <script>
-	import HiKnowlegeVisualisation from '$lib/components/HiKnowlegeVisualisation.svelte';
+	import HiKnowledgeLogo from '$lib/components/HiKnowledgeLogo.svelte';
+	import HiKnowledgeVisualisation from '$lib/components/HiKnowledgeVisualisation.svelte';
 </script>
 
 <!-- prettier-ignore -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 200 1684 1064">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 50 1684 1164">
   <defs>
     <marker id="arrowhead-involvement" orient="auto" overflow="visible" refX="0" refY="0">
       <path fill-rule="evenodd" d="m-5-2 6 2-6 2v-4z"/>
@@ -12,6 +13,29 @@
 			<path fill-rule="evenodd" d="m0-1 3 1-3 1v-2z"/>
     </marker>
   </defs>
+
+	<g id="header">
+
+		<g id="hiknowledgelogo" transform="translate(50,50)">
+			<HiKnowledgeLogo width="310" height="125" />
+		</g>
+
+		<g id="title">
+			<text fill="#447080" font-family="'Roboto Mono for Powerline'" font-size="34px" font-weight="700" x="400" y="100">
+				<tspan x="400" y="100">
+					Workshop (2-3 May, 2022)
+				</tspan>
+			</text>
+		</g>
+
+		<g id="subtitle">
+			<text fill="#447080" font-family="'Roboto Mono for Powerline'" font-size="33.5172px" font-weight="400" style="-inkscape-font-specification:RobotoMono-Regular;stroke-width:1.33322" transform="scale(1.000084,0.999916)" id="text539" x="399.15686" y="143.41045">
+				<tspan x="400" y="145">
+					Towards an interactive atlas of invasion biology and beyond!
+				</tspan>
+			</text>
+		</g>
+	</g>
 
 	<g id="process">
 
