@@ -89,7 +89,7 @@
 			</g>
 			<rect class="dottedRoundedBox" width="445.2" height="493.9" x="1058" y="680" rx="90" ry="90"/>
 			<g transform="translate(1070,800)">
-			<HiKnowlegeVisualisation width="440" height="400" />
+				<HiKnowledgeVisualisation width="440" height="400" />
 			</g>
 		</g>
 
