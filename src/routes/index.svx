@@ -1,3 +1,5 @@
+<article>
+
 ### Building an interactive atlas of knowledge for invasion science and beyond
 
 > "Drowning in information ... starved of knowledge" _John Naisbitt, 1982_
@@ -33,3 +35,22 @@ Jeschke JM, Heger T, Kraker P, Schramm M, Kittel C, Mietchen D (2021) Towards an
 [![Freie Universität Berlin](https://upload.wikimedia.org/wikipedia/de/7/71/Fub-logo.svg)](https://www.fu-berlin.de/)
 
 [![Open Knowledge Maps](https://raw.githubusercontent.com/OpenKnowledgeMaps/CoVis/master/img/Logo-Open-Knowledge-Maps-BGwhite.svg)](https://openknowledgemaps.org/)
+
+</article>
+
+<style>
+	article {
+		display: grid;
+		gap: var(--size-3);
+		width: 100%;
+		grid-template-columns: auto auto min(100% - 2rem, var(--size-content-4, 72ch)) auto auto;
+	}
+	article > * {
+		grid-column: 3 / span 1;
+    max-inline-size: unset;
+	}
+  .gridSpan {
+    grid-column-start: 2;
+    grid-column-end: -2;
+  }
+</style>

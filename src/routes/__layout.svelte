@@ -40,11 +40,4 @@
 	nav > ul {
 		list-style-type: none;
 	}
-	main {
-		display: grid;
-		gap: var(--size-3);
-		width: min(100% - 2rem, var(--size-content-3));
-		margin-inline: auto;
-		padding: 2ch;
-	}
 </style>

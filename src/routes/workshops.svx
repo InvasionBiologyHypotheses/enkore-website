@@ -2,13 +2,17 @@
   import VisualAbstract from "$lib/components/VisualAbstract.svelte";
 </script>
 
+<article>
+
 # Workshops
 
 ## First enKORE Workshop:
 
 **Towards an open interactive atlas for Invasion Biology and beyond!**
 
-<VisualAbstract style="max-inline-width:var(--size-content-3)" />
+<div class="gridSpan">
+  <VisualAbstract />
+</div>
 
 Our first online workshop will bring together a diverse community of invasion biologists, urban and restoration ecologists, as well as interested scientists from other fields to reflect on, try out and develop these new tools. We are at the beginning of the project, so there is still a lot of space for creativity!
 
@@ -80,3 +84,22 @@ You may also propose your own idea for a break-out group discussion, either by c
 * Further ideas for on-demand meta-analyses
 * Other visualisation ideas: Which other options can you think of for visualising search results and data?
 * … (room for your additional break-out group suggestions)
+
+</article>
+
+<style>
+	article {
+		display: grid;
+		gap: var(--size-3);
+		width: 100%;
+		grid-template-columns: auto auto min(100% - 2rem, var(--size-content-4, 72ch)) auto auto;
+	}
+	article > * {
+		grid-column: 3 / span 1;
+    max-inline-size: unset;
+	}
+  .gridSpan {
+    grid-column-start: 2;
+    grid-column-end: -2;
+  }
+</style>

@@ -7,4 +7,5 @@
 
 :root {
 	--brand: var(--cyan-7);
+	--size-content-4: 72ch;
 }
