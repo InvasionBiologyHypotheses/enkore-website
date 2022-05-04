@@ -31,32 +31,118 @@ On the second day, break-out group activities will allow participants to:
 
 *The workshop is now fully booked, but let us know if you wish to join the first day of presentations by <a href="mailto:enkore@hi-knowledge.org">contacting us</a>.*
 
-###  Workshop Program:
-#### First day, May 2nd (times are CET):
-14h - 14h20: Welcome, brief introduction to the topic, history and current status of the Hi Knowledge initiative
+###  Workshop Program
 
-14h20 - 14h40: Introduction to enKORE and INAS projects
+<table class="timetable">
+	<thead>
+		<tr>
+			<th colspan="2">
+        First day, May 2nd (times are CEST)
+      </th>
+    </tr>
+  </thead>
+	<tbody>
+		<tr>
+			<th>
+        14h00 - 14h20
+      </th>
+      <td>
+        Welcome, brief introduction to the topic, history and current status of the Hi Knowledge initiative (Jonathan Jeschke)
+      </td>
+    </tr>
+		<tr>
+			<th>
+        14h20 - 14h40
+      </th>
+      <td>
+        Introduction to enKORE and INAS projects (Tina Heger)
+      </td>
+    </tr>
+		<tr>
+			<th>
+        14h40 - 15h00
+      </th>
+      <td>
+        Time for questions and refreshments
+      </td>
+    </tr>
+		<tr>
+			<th>
+        15h00 - 15h20
+      </th>
+      <td>
+        Introduction to OK Maps and its role in enKORE (Peter Kraker)
+      </td>
+    </tr>
+		<tr>
+			<th>
+        15h20 - 15h40
+      </th>
+      <td>
+        Introduction to Scholia and Wiki sites related to invasion biology (Daniel Mietchen)
+      </td>
+    </tr>
+		<tr>
+			<th>
+        15h40 - 16h00
+      </th>
+      <td>
+        Introduction to ORKG and its connection to enKORE (Marcus Stocker)
+      </td>
+    </tr>
+		<tr>
+			<th>
+        16h00 - 16h30
+      </th>
+      <td>
+        Goodbye to those who don’t participate in day 2
 
-14h40 - 15h: Time for questions and refreshments
-
-15h - 15h20: Introduction to OK Maps and its role in enKORE
-
-15h20 - 15h40: Introduction to Scholia and Wiki sites related to invasion biology
-
-15h40 - 16h: Introduction to ORKG and its connection to enKORE
-
-16h: Goodbye to those who don’t participate in day 2
-
-16h - 16h30: Overview and selection of break-out group topics for day 2
-
-#### Second day, May 3rd (times are CET):
-14h: Short kick-off
-
-14h10 - 15h: Break-out groups round 1
-
-15h10 - 16h: Break-out groups round 2
-
-16h15 - 17h: Quick summaries of break-out groups and next steps
+        Overview and selection of break-out group topics for day 2
+      </td>
+    </tr>
+  </tbody>
+	<thead>
+		<tr>
+			<th colspan="2">
+  			Second day, May 3rd (times are CEST)
+      </th>
+    </tr>
+  </thead>
+	<tbody>
+		<tr>
+			<th>
+        14h00 - 14:10
+			</th>
+			<td>
+        Short kick-off
+      </td>
+    </tr>
+		<tr>
+			<th>
+        14h10 - 15h00
+			</th>
+			<td>
+        Break-out groups round 1
+      </td>
+    </tr>
+		<tr>
+			<th>
+        15h10 - 16h00
+			</th>
+			<td>
+        Break-out groups round 2
+      </td>
+    </tr>
+		<tr>
+			<th>
+        16h15 - 17h00
+			</th>
+			<td>
+        Quick summaries of break-out groups and next steps
+      </td>
+    </tr>
+	</tbody>
+</table>
 
 ### Break-out group topics
 We will offer to lead a number of break-out group discussions about the different tools to be developed and new themes to be added to the project.
@@ -102,4 +188,22 @@ You may also propose your own idea for a break-out group discussion, either by c
     grid-column-start: 2;
     grid-column-end: -2;
   }
+	.timetable {
+    border: none;
+  }
+	.timetable th, td {
+    vertical-align: top;
+		padding: var(--size-fluid-1);
+	}
+	.timetable > thead th {
+		text-align: left;
+		font-weight: 700;
+		font-size: var(--font-size-fluid-1);
+	}
+  .timetable > tbody tr:nth-child(odd) {
+    background-color: var(--surface-2)
+  }
+	.timetable > tbody th {
+		white-space: nowrap;
+	}
 </style>
