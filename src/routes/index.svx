@@ -2,7 +2,7 @@
 
 ### Building an interactive atlas of knowledge for invasion science and beyond
 
-> "Drowning in information ... starved of knowledge" _John Naisbitt, 1982_
+> "We are drowning in information but starved for knowledge." _John Naisbitt, 1982_
 
 With the exponential increase in scientific publications, it has become difficult to acquire and maintain an overview of expanding fields like invasion biology, urban ecology or restoration ecology. The [enKORE project](https://doi.org/10.3897/neobiota.68.66685) uses the power of machine learning and natural language processing to develop an open interactive atlas of knowledge, first with a focus on invasion biology, but soon also for urban and restoration ecology. Our goal is to foster open knowledge by making the scientific literature machine-readable to help humans navigate it.
 
