@@ -40,4 +40,8 @@
 	nav > ul {
 		list-style-type: none;
 	}
+
+	footer {
+		min-height: var(--size-10);
+	}
 </style>
