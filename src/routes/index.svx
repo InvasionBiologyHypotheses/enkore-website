@@ -1,3 +1,8 @@
+<script>
+  import PeopleAndPartners from "$lib/components/PeopleAndPartners.svelte";
+  export let associations
+</script>
+
 <article>
 
 ### Building an interactive atlas of knowledge for invasion science and beyond
@@ -8,49 +13,45 @@ With the exponential increase in scientific publications, it has become difficul
 
 If you are interested in joining our community, please [contact us](mailto:enkore@hi-knowledge.org).
 
-## People
+## Partners and People
 
-- Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB) & FU Berlin:
-  - Maud Bernard-Verdier
-  - Tina Heger
-  - Jonathan Jeschke
-  - Daniel Mietchen
-  - Camille Musseau
-  - Steph Tyszka
-- Open Knowledge Maps:
-  - Christopher Kittel
-  - Jan Konstant
-  - Peter Kraker
-  - Maxi Schramm
+<div class="expandable">
+<PeopleAndPartners data={associations} />
+</div>
+
 
 ## Publications
 
 Jeschke JM, Heger T, Kraker P, Schramm M, Kittel C, Mietchen D (2021) Towards an open, zoomable atlas for invasion science and beyond. NeoBiota 68: 5-18. https://doi.org/10.3897/neobiota.68.66685
 
-## Partner Organisations
+## Funding
 
-[![IGB - Leibniz Institute of Freshwater Ecology and Inland Fisheries](https://www.igb-berlin.de/themes/custom/igbtheme/images/logo_en.svg)](https://www.igb-berlin.de/en)
+[![Volkswagen Foundation](https://www.volkswagenstiftung.de/profiles/vwst/theme/volkswagen/images/logo.svg)](https://www.volkswagenstiftung.de/)
+Financial support for this project has been received from the VolkswagenStiftung (97 863).
 
 
-[![Freie Universität Berlin](https://upload.wikimedia.org/wikipedia/de/7/71/Fub-logo.svg)](https://www.fu-berlin.de/)
-
-[![Open Knowledge Maps](https://raw.githubusercontent.com/OpenKnowledgeMaps/CoVis/master/img/Logo-Open-Knowledge-Maps-BGwhite.svg)](https://openknowledgemaps.org/)
 
 </article>
 
 <style>
 	article {
 		display: grid;
-		gap: var(--size-3);
+		gap: var(--size-3) 0;
 		width: 100%;
-		grid-template-columns: auto auto min(100% - 2rem, var(--size-content-4, 72ch)) auto auto;
+		grid-template-columns: 1fr 2fr min(100% - 2rem, var(--size-content-4, 72ch)) 2fr 1fr;
 	}
 	article > * {
 		grid-column: 3 / span 1;
     max-inline-size: unset;
 	}
-  .gridSpan {
+  /* .expanded {
     grid-column-start: 2;
     grid-column-end: -2;
+  } */
+  @media (min-width: 768px) {
+    .expandable {
+    grid-column-start: 2;
+    grid-column-end: -2;
+    }
   }
 </style>
