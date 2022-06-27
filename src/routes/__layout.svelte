@@ -49,7 +49,6 @@
 		display: flex;
 		max-height: var(--size-10);
 		justify-content: space-between;
-		outline: pink solid;
 	}
 	a {
 		padding: unset;
