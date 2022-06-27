@@ -31,6 +31,12 @@ If you are interested in joining our community, please [contact us](mailto:enkor
 
 Jeschke JM, Heger T, Kraker P, Schramm M, Kittel C, Mietchen D (2021) Towards an open, zoomable atlas for invasion science and beyond. NeoBiota 68: 5-18. https://doi.org/10.3897/neobiota.68.66685
 
+## Communication
+
+See our poster ([pdf](https://zenodo.org/record/6669459/files/enKORE_WBF22_4.pdf?download=1)) and hear the audio abstract ([audio file](https://zenodo.org/record/6669459/files/enKORE_WBF2022_oral%20summary.m4a?download=1)) for the World Biodiversity Forum in Davos, Switzerland, 26.06 - 01.07.2022
+
+Heger, Tina, Bernard-Verdier, Maud, Kittel, Christopher, Kraker, Peter, Mietchen, Daniel, Musseau, Camille, Schramm, Maxi, Tyszka, Steph, & Jeschke, Jonathan M. (2022). Developing a FAIR atlas of knowledge for invasion science and beyond. World Biodiversity Forum (WBF), Davos, Switzerland. Zenodo. https://doi.org/10.5281/zenodo.6669459
+
 ## Partner Organisations
 
 [![IGB - Leibniz Institute of Freshwater Ecology and Inland Fisheries](https://www.igb-berlin.de/themes/custom/igbtheme/images/logo_en.svg)](https://www.igb-berlin.de/en)
