@@ -16,10 +16,10 @@
 	.baseGrid {
 		display: grid;
 		gap: var(--size-3);
+		display: grid;
 		grid-template-columns: 300px 1fr;
 		grid-template-rows: 1fr;
 		grid-template-areas: 'logo description';
-		align-items: center;
 	}
 	.logo {
 		grid-area: logo;

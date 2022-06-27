@@ -1,7 +1,5 @@
 <script>
-  import PeopleAndPartners from "$lib/components/PeopleAndPartners.svelte";
   import Funding from "$lib/components/Funding.svelte";
-  export let associations
 </script>
 
 <article>
@@ -14,46 +12,53 @@ With the exponential increase in scientific publications, it has become difficul
 
 If you are interested in joining our community, please [contact us](mailto:enkore@hi-knowledge.org).
 
-## Partners and People
+## People
 
-<div class="expandable">
-<PeopleAndPartners data={associations} />
-</div>
-
+- Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB) & FU Berlin:
+  - Maud Bernard-Verdier
+  - Tina Heger
+  - Jonathan Jeschke
+  - Daniel Mietchen
+  - Camille Musseau
+  - Steph Tyszka
+- Open Knowledge Maps:
+  - Christopher Kittel
+  - Jan Konstant
+  - Peter Kraker
+  - Maxi Schramm
 
 ## Publications
 
 Jeschke JM, Heger T, Kraker P, Schramm M, Kittel C, Mietchen D (2021) Towards an open, zoomable atlas for invasion science and beyond. NeoBiota 68: 5-18. https://doi.org/10.3897/neobiota.68.66685
 
-## Funding
+## Partner Organisations
 
+[![IGB - Leibniz Institute of Freshwater Ecology and Inland Fisheries](https://www.igb-berlin.de/themes/custom/igbtheme/images/logo_en.svg)](https://www.igb-berlin.de/en)
+
+[![Freie Universität Berlin](https://upload.wikimedia.org/wikipedia/de/7/71/Fub-logo.svg)](https://www.fu-berlin.de/)
+
+[![Open Knowledge Maps](https://raw.githubusercontent.com/OpenKnowledgeMaps/CoVis/master/img/Logo-Open-Knowledge-Maps-BGwhite.svg)](https://openknowledgemaps.org/)
+
+## Funding
 <div>
   <Funding />
 </div>
-
-
 
 </article>
 
 <style>
 	article {
 		display: grid;
-		gap: var(--size-3) 0;
+		gap: var(--size-3);
 		width: 100%;
-		grid-template-columns: 1fr 2fr min(100% - 2rem, var(--size-content-4, 72ch)) 2fr 1fr;
+		grid-template-columns: auto auto min(100% - 2rem, var(--size-content-4, 72ch)) auto auto;
 	}
 	article > * {
 		grid-column: 3 / span 1;
     max-inline-size: unset;
 	}
-  /* .expanded {
+  .gridSpan {
     grid-column-start: 2;
     grid-column-end: -2;
-  } */
-  @media (min-width: 768px) {
-    .expandable {
-    grid-column-start: 2;
-    grid-column-end: -2;
-    }
   }
 </style>
