@@ -1,3 +1,7 @@
+<script>
+  import Funding from "$lib/components/Funding.svelte";
+</script>
+
 <article>
 
 ### Building an interactive atlas of knowledge for invasion science and beyond
@@ -35,6 +39,11 @@ Jeschke JM, Heger T, Kraker P, Schramm M, Kittel C, Mietchen D (2021) Towards an
 [![Freie Universität Berlin](https://upload.wikimedia.org/wikipedia/de/7/71/Fub-logo.svg)](https://www.fu-berlin.de/)
 
 [![Open Knowledge Maps](https://raw.githubusercontent.com/OpenKnowledgeMaps/CoVis/master/img/Logo-Open-Knowledge-Maps-BGwhite.svg)](https://openknowledgemaps.org/)
+
+## Funding
+<div>
+  <Funding />
+</div>
 
 </article>
 
