@@ -54,6 +54,9 @@ Heger, Tina, Bernard-Verdier, Maud, Kittel, Christopher, Kraker, Peter, Mietchen
 </article>
 
 <style>
+  h3 {
+    font-size: var(--font-size-7);
+  }
 	article {
 		display: grid;
 		gap: var(--size-3);
