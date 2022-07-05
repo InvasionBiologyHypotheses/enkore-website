@@ -1,5 +1,9 @@
 <script>
-  import Funding from "$lib/components/Funding.svelte";
+  import ImageDescriptionBlock from "$lib/components/ImageDescriptionBlock.svelte";
+
+  export let data;
+
+  const {partners, funders} = data;
 </script>
 
 <article>
@@ -39,16 +43,13 @@ Heger, Tina, Bernard-Verdier, Maud, Kittel, Christopher, Kraker, Peter, Mietchen
 
 ## Partner Organisations
 
-[![IGB - Leibniz Institute of Freshwater Ecology and Inland Fisheries](https://www.igb-berlin.de/themes/custom/igbtheme/images/logo_en.svg)](https://www.igb-berlin.de/en)
-
-
-[![Freie Universität Berlin](https://upload.wikimedia.org/wikipedia/de/7/71/Fub-logo.svg)](https://www.fu-berlin.de/)
-
-[![Open Knowledge Maps](https://raw.githubusercontent.com/OpenKnowledgeMaps/CoVis/master/img/Logo-Open-Knowledge-Maps-BGwhite.svg)](https://openknowledgemaps.org/)
+<div>
+  <ImageDescriptionBlock items={partners} />
+</div>
 
 ## Funding
 <div>
-  <Funding />
+  <ImageDescriptionBlock items={funders} />
 </div>
 
 </article>
@@ -60,15 +61,14 @@ Heger, Tina, Bernard-Verdier, Maud, Kittel, Christopher, Kraker, Peter, Mietchen
 	article {
 		display: grid;
 		gap: var(--size-3);
-		width: 100%;
-		grid-template-columns: auto auto min(100% - 2rem, var(--size-content-4, 72ch)) auto auto;
+    grid-template-columns: auto min(100% - 2em, 72ch) auto;
 	}
 	article > * {
-		grid-column: 3 / span 1;
+		grid-column: 2 / span 1;
     max-inline-size: unset;
 	}
   .gridSpan {
-    grid-column-start: 2;
-    grid-column-end: -2;
+    grid-column-start: 1;
+    grid-column-end: -1;
   }
 </style>
